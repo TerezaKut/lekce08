@@ -1,0 +1,12 @@
+/* nejsme včerejší, používáme moderní box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+	padding: 3em;
+	font-family: sans-serif;
+}
+
+/* -------------------------------------------- */
+
